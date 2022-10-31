@@ -259,8 +259,9 @@
   padding: 1em 2em 1em 2em;
   margin: 1.5em 0 1.5em 0;
   flex-direction: row;
-  border: 0.2em solid #7c2806;
+  border: 2px solid #7c2806;
   align-items: center;
+  border-radius: 20px 1px;
 }
 .novedades .novedades__container .novedades__box .novedades__content {
   padding: 0 2em 0 0;
@@ -397,6 +398,16 @@
   }
   .cursos__container .cursos__right .cursos__image {
     width: 100%;
+  }
+  .novedades .novedades__container .novedades__box .novedades__content .novedades__notice {
+    text-align: center;
+  }
+  .novedades .novedades__container .novedades__box .novedades__content .novedades__text {
+    text-align: justify;
+  }
+  .contacto .contacto__box .contacto__title {
+    margin: 0;
+    text-align: center;
   }
   .footer {
     flex-direction: column;

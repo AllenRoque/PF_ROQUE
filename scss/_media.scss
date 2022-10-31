@@ -1,4 +1,4 @@
-@include media(comp) {
+@include media(xl) {
   .navbar-light .navbar-toggler {
     border: 1px solid $mainColor;
   }
@@ -52,7 +52,7 @@
   }
 }
 
-@include media(lap) {
+@include media(l) {
   .hero {
     padding: 4em;
   }
@@ -81,6 +81,30 @@
       }
       .cursos__image {
         width: 100%;
+      }
+    }
+  }
+
+  .novedades {
+    .novedades__container {
+      .novedades__box {
+        .novedades__content {
+          .novedades__notice {
+            text-align: center;
+          }
+          .novedades__text {
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+
+  .contacto {
+    .contacto__box {
+      .contacto__title {
+        margin: 0;
+        text-align: center;
       }
     }
   }
@@ -119,7 +143,7 @@
   }
 }
 
-@include media(tablet) {
+@include media(m) {
   .historia__text {
     padding: 0 10px 0 10px;
   }
@@ -138,7 +162,7 @@
   }
 }
 
-@include media(mobile) {
+@include media(s) {
   .navbar {
     .container-fluid {
       .navbar-brand {

@@ -13,8 +13,9 @@
       padding: 1em 2em 1em 2em;
       margin: 1.5em 0 1.5em 0;
       flex-direction: row;
-      border: 0.2em solid $mainColor;
+      border: 2px solid $mainColor;
       align-items: center;
+      border-radius: 20px 1px;
       .novedades__content {
         padding: 0 2em 0 0;
         .novedades__notice {
